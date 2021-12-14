@@ -12,7 +12,7 @@ function MeetUpItem(props){
             <h3>{props.title}</h3>
             <address>{props.address}</address>
             <p>{props.description}</p>
-        </div>
+        </div> 
         <div className={classes.actions}>
             <button>To Favorites</button>
         </div>
